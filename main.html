@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quran Habit Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="top-left">
+      <button id="lang-toggle">عربي؟</button>
+    </div>
+    <div class="top-center">
+      <button id="home-btn">🏠</button>
+      <button id="history-btn">📅</button>
+    </div>
+    <div class="top-right">
+      <button id="mode-toggle">☀️</button>
+    </div>
+  </header>
+
+  <main>
+    <h1 id="question">Did you read your Wird today? 💌</h1>
+    <label class="checkbox-wrapper">
+      <input type="checkbox" id="read-checkbox" />
+      <span id = "checkSentence">I read Quran today 🤍</span>
+    </label>
+    <p id="date"></p>
+    <p id="quote"></p>
+  </main>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
